@@ -21,6 +21,5 @@ public class MyScheduler {
 
         scheduler.start();
         scheduler.scheduleJob(jobDetail,trigger);
-
     }
 }
